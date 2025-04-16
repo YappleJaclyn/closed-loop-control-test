@@ -2,7 +2,7 @@
 
 ## Description
 
-This example shows how to perform both position and velocity closed loop control on a SPARK motor controller.
+Use for testing closed loop control
 
 ### Topics Covered
 
@@ -15,11 +15,9 @@ This example shows how to perform both position and velocity closed loop control
 
 ## Usage
 
-This example assumes a SPARK MAX with a free spinning NEO. The PID values are tuned for this and should be adjusted if a different setup is being used.
+This example assumes a SPARK MAX with a CIM.
 
-<!-- For information on migrating to SPARK Flex, see our [documentation](). -->
-
-Deploy the program to your roboRIO and load the included `shuffleboard.json` into Shuffleboard. The Shuffleboard layout provides the following:
+Deploy the program to your roboRIO and use ascope to change the following values:
 
 * A toggle to switch between position and velocity control modes
 * Input sliders to set target position or velocity
